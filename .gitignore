@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+data/
+artifacts/model.pt
+.DS_Store

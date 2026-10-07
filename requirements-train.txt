@@ -1,0 +1,7 @@
+# Training / evaluation / export
+-r requirements-api.txt
+torch==2.14.0
+torchvision==0.29.0
+onnx==1.23.0
+onnxscript==0.7.2
+scikit-learn==1.9.1

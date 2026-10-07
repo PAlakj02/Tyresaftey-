@@ -1,0 +1,66 @@
+{
+  "thresholds": {
+    "good_below": 0.2689,
+    "defective_above": 0.65
+  },
+  "val": {
+    "n": 274,
+    "accuracy@0.5": 0.9635,
+    "roc_auc": 0.998,
+    "defective_recall@0.5": 0.9533,
+    "good_recall@0.5": 0.9758,
+    "confusion@0.5 [[tn, fp], [fn, tp]]": [
+      [
+        121,
+        3
+      ],
+      [
+        7,
+        143
+      ]
+    ],
+    "three_level_breakdown": {
+      "good": {
+        "good": 120,
+        "okay": 3,
+        "defective": 1
+      },
+      "defective": {
+        "good": 3,
+        "okay": 6,
+        "defective": 141
+      }
+    },
+    "defective_called_good": 3
+  },
+  "test": {
+    "n": 275,
+    "accuracy@0.5": 0.9673,
+    "roc_auc": 0.9979,
+    "defective_recall@0.5": 0.9533,
+    "good_recall@0.5": 0.984,
+    "confusion@0.5 [[tn, fp], [fn, tp]]": [
+      [
+        123,
+        2
+      ],
+      [
+        7,
+        143
+      ]
+    ],
+    "three_level_breakdown": {
+      "good": {
+        "good": 123,
+        "okay": 1,
+        "defective": 1
+      },
+      "defective": {
+        "good": 2,
+        "okay": 8,
+        "defective": 140
+      }
+    },
+    "defective_called_good": 2
+  }
+}
